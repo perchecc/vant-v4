@@ -4,27 +4,27 @@
 
 这个模板应该能帮你使用基于Vite的vue3开始开发。
 
-## Recommended IDE Setup
+## 推荐的 IDE 设置
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## 自定义 配置
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 项目 设置
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 开发环境 编译 & 热更新
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 生产环境 编译 & 压缩
 
 ```sh
 npm run build
