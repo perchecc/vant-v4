@@ -1,6 +1,9 @@
 // src/router/index.js
 import { createRouter, createWebHashHistory } from 'vue-router'
-import home from '../views/home.vue'
+import home from '@/views/home.vue'
+import fertilizationScheme from '@/views/fertilizationScheme.vue'
+// import { defineAsyncComponent } from 'vue'
+// const _import = (path) => defineAsyncComponent(() => import(`../views/${path}.vue`));
 
 // createRouter 创建路由实例
 const router = createRouter({
@@ -8,7 +11,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      component: home
+      // component: home
+      redirect: '/fertilizationScheme'
+    },
+    {
+      path: '/fertilizationScheme',
+      component: fertilizationScheme,
     }
   ]
 })
