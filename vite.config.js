@@ -45,6 +45,7 @@ export default defineConfig({
     },
   },
   server: {
+    host: '0.0.0.0',
     proxy: {
       "/api": {
         target: "http://1.14.96.11:8010", // 接口的域名

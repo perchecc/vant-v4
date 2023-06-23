@@ -5,11 +5,15 @@ export const useUserStore = defineStore({
   state: () => {
     return {
       name: "perchecc",
+      fieldInfo: ''
     };
   },
   actions: {
     updateName(name) {
       this.name = name;
+    },
+    updateFieldInfo(fieldInfo) {
+      this.fieldInfo = fieldInfo
     },
   },
   getters: {
