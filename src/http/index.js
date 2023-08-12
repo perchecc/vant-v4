@@ -3,7 +3,7 @@ import { showFailToast } from "vant";
 
 //创建axios的一个实例
 var instance = axios.create({
-  baseURL: import.meta.env.VITE_BASE_URL, // 接口统一代理域名
+  baseURL: import.meta.env.VITE_API_HOST, // 接口统一代理域名
   timeout: 6000, //设置超时
   headers: {
     "Content-Type": "application/json;charset=UTF-8;",

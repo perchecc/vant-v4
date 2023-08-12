@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite --mode development",
-    "build": "vite build",
-    "build:dev": "vue-tsc --noEmit && vite build --mode development",
-    "build:pro": "vue-tsc --noEmit && vite build --mode production",
+    "serve": "vite --mode dev --host",
+    "build:dev": "vue-tsc --noEmit && vite build --mode dev",
+    "build:pro": "vue-tsc --noEmit && vite build --mode prod",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
     "postcss-pxtorem": "^6.0.0",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
